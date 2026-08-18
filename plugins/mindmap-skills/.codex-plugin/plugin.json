@@ -1,0 +1,23 @@
+{
+  "name": "mindmap-skills",
+  "version": "0.1.0",
+  "description": "把文档和想法整理为可编辑的思维导图。",
+  "author": { "name": "Vector Community", "url": "https://github.com/kenshincui/VectorPlugins" },
+  "homepage": "https://github.com/kenshincui/VectorPlugins/tree/main/plugins/mindmap-skills",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "MIT",
+  "keywords": ["mindmap", "mermaid", "diagram", "processon", "outline"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Mindmap Skills",
+    "displayName": "思维导图 Skills",
+    "shortDescription": "将文档、需求和想法转成可编辑的结构化思维导图",
+    "longDescription": "生成 Mermaid mindmap 或 flowchart 源文件，并按需要导出 SVG/PNG 或适配 ProcessOn 导入。",
+    "developerName": "Vector Community",
+    "category": "Productivity",
+    "capabilities": ["Mind maps", "Mermaid", "Diagram source"],
+    "websiteURL": "https://github.com/kenshincui/VectorPlugins",
+    "defaultPrompt": ["把这份文档整理成思维导图。", "将需求拆解成 Mermaid 流程图。", "生成可导入 ProcessOn 的层级大纲。"],
+    "brandColor": "#0EA5E9"
+  }
+}

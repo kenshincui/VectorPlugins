@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT Skills"
+  short_description: "创建、编辑、渲染并检查 PowerPoint 演示文稿"
+  default_prompt: "帮我制作一份结构清晰、可正常打开的 PowerPoint 演示文稿。"

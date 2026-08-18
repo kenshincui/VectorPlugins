@@ -1,0 +1,23 @@
+{
+  "name": "meeting-minutes",
+  "version": "0.1.0",
+  "description": "将会议转写稿和笔记整理为中文会议纪要。",
+  "author": { "name": "Vector Community", "url": "https://github.com/kenshincui/VectorPlugins" },
+  "homepage": "https://github.com/kenshincui/VectorPlugins/tree/main/plugins/meeting-minutes",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "MIT",
+  "keywords": ["meeting", "minutes", "summary", "actions", "chinese"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Meeting Minutes",
+    "displayName": "会议纪要 Skills",
+    "shortDescription": "把会议材料整理成决策、行动项、风险和待确认事项",
+    "longDescription": "从会议笔记或转写稿提取议题、事实、分歧、决策和行动项，不猜测缺失的负责人或日期。",
+    "developerName": "Vector Community",
+    "category": "Productivity",
+    "capabilities": ["Summarize", "Action items", "Chinese writing"],
+    "websiteURL": "https://github.com/kenshincui/VectorPlugins",
+    "defaultPrompt": ["把这份转写稿整理成会议纪要。", "提取决策和行动项并标注负责人。", "生成适合发送到群里的会议摘要。"],
+    "brandColor": "#6B7280"
+  }
+}

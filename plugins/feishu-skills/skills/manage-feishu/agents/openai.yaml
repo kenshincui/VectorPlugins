@@ -1,0 +1,4 @@
+interface:
+  display_name: "飞书 Skills"
+  short_description: "操作飞书文档、云盘、Wiki、多维表格、日历和消息"
+  default_prompt: "读取或更新我的飞书内容，并在执行写操作前确认范围。"

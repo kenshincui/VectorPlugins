@@ -1,0 +1,22 @@
+{
+  "name": "ppt-skills",
+  "version": "0.1.0",
+  "description": "创建、修改、渲染和验证 PowerPoint 演示文稿。",
+  "author": { "name": "Vector Community", "url": "https://github.com/kenshincui/VectorPlugins" },
+  "homepage": "https://github.com/kenshincui/VectorPlugins/tree/main/plugins/ppt-skills",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "MIT",
+  "keywords": ["ppt", "pptx", "powerpoint", "slides", "presentation"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PPT Skills",
+    "shortDescription": "生成、修改和检查可正常打开的 PowerPoint 演示文稿",
+    "longDescription": "从大纲、材料或现有文件生成和修改 PPTX，渲染预览并检查溢出、缺字、空页和版式问题。",
+    "developerName": "Vector Community",
+    "category": "Productivity",
+    "capabilities": ["Create slides", "Edit slides", "Visual QA"],
+    "websiteURL": "https://github.com/kenshincui/VectorPlugins",
+    "defaultPrompt": ["把这份材料制作成一套中文汇报 PPT。", "优化这个 PPT 的结构和视觉层次。", "检查演示文稿是否有溢出和空页。"],
+    "brandColor": "#D24726"
+  }
+}

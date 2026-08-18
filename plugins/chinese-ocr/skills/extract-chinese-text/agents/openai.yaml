@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文 OCR"
+  short_description: "从中文图片、截图和扫描件中提取文本、表格与版面结构信息"
+  default_prompt: "从这些图片或扫描件中提取中文文本，并保留表格和段落结构。"

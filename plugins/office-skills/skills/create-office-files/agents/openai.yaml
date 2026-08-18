@@ -1,0 +1,4 @@
+interface:
+  display_name: "Office Skills"
+  short_description: "创建、编辑并验证 Word、Excel 和常用办公文件"
+  default_prompt: "创建或修改一个 Office 文件，并验证最终文件可以正常打开。"

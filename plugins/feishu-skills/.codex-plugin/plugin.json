@@ -1,0 +1,22 @@
+{
+  "name": "feishu-skills",
+  "version": "0.1.0",
+  "description": "使用 lark-cli 操作飞书文档、云盘、Wiki、多维表格、日历和消息。",
+  "author": { "name": "Vector Community", "url": "https://github.com/kenshincui/VectorPlugins" },
+  "homepage": "https://github.com/kenshincui/VectorPlugins/tree/main/plugins/feishu-skills",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "MIT",
+  "keywords": ["feishu", "lark", "docs", "office", "china"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "飞书 Skills",
+    "shortDescription": "操作飞书文档、云盘、Wiki、多维表格、日历和消息",
+    "longDescription": "通过 lark-cli 使用当前用户授权操作飞书内容。读取优先，写入、发送和审批严格遵循用户授权范围。",
+    "developerName": "Vector Community",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write", "External service"],
+    "websiteURL": "https://github.com/kenshincui/VectorPlugins",
+    "defaultPrompt": ["读取这个飞书文档并总结重点。", "把结果更新到指定飞书文档。", "查询我的飞书日历并整理安排。"],
+    "brandColor": "#3370FF"
+  }
+}

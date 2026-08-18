@@ -1,0 +1,22 @@
+{
+  "name": "office-skills",
+  "version": "0.1.0",
+  "description": "创建、读取、修改和转换 Word、Excel 等本地办公文件。",
+  "author": { "name": "Vector Community", "url": "https://github.com/kenshincui/VectorPlugins" },
+  "homepage": "https://github.com/kenshincui/VectorPlugins/tree/main/plugins/office-skills",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "MIT",
+  "keywords": ["office", "docx", "xlsx", "word", "excel"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Office Skills",
+    "shortDescription": "创建和编辑 Word、Excel 与常用本地办公文件",
+    "longDescription": "使用本地 Python 或 LibreOffice 创建、编辑、转换并验证 DOCX、XLSX、CSV 等办公文件。",
+    "developerName": "Vector Community",
+    "category": "Productivity",
+    "capabilities": ["Create files", "Edit files", "Convert files"],
+    "websiteURL": "https://github.com/kenshincui/VectorPlugins",
+    "defaultPrompt": ["把这些内容整理成 Word 文档。", "分析这个 Excel 并生成汇总表。", "把办公文件转换为 PDF 并检查结果。"],
+    "brandColor": "#217346"
+  }
+}

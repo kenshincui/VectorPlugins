@@ -1,0 +1,22 @@
+{
+  "name": "pdf-toolkit",
+  "version": "0.1.0",
+  "description": "读取、OCR、合并、拆分、旋转和转换 PDF 文件。",
+  "author": { "name": "Vector Community", "url": "https://github.com/kenshincui/VectorPlugins" },
+  "homepage": "https://github.com/kenshincui/VectorPlugins/tree/main/plugins/pdf-toolkit",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "MIT",
+  "keywords": ["pdf", "ocr", "merge", "split", "convert"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PDF 工具 Skills",
+    "shortDescription": "读取、OCR、合并、拆分、旋转并验证 PDF 文件",
+    "longDescription": "根据任务选择 Poppler、PyMuPDF、pypdf 或 OCR 工具处理 PDF，并通过页数、文本和渲染结果验证输出。",
+    "developerName": "Vector Community",
+    "category": "Productivity",
+    "capabilities": ["Read PDF", "Edit PDF", "OCR", "Convert"],
+    "websiteURL": "https://github.com/kenshincui/VectorPlugins",
+    "defaultPrompt": ["提取这个 PDF 的文字和表格。", "合并这些 PDF 并生成目录。", "对扫描 PDF 做 OCR 并检查结果。"],
+    "brandColor": "#E11D48"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "chinese-ocr",
+  "version": "0.1.0",
+  "description": "从中文图片、截图和扫描件中提取结构化文本。",
+  "author": { "name": "Vector Community", "url": "https://github.com/kenshincui/VectorPlugins" },
+  "homepage": "https://github.com/kenshincui/VectorPlugins/tree/main/plugins/chinese-ocr",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "MIT",
+  "keywords": ["ocr", "chinese", "paddleocr", "scan", "image"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "中文 OCR",
+    "shortDescription": "从中文图片、截图和扫描件提取文本与表格结构",
+    "longDescription": "根据本机能力选择 PaddleOCR、Tesseract 或已有视觉工具，输出可校对的中文文本、表格和置信度说明。",
+    "developerName": "Vector Community",
+    "category": "Productivity",
+    "capabilities": ["OCR", "Table extraction", "Local files"],
+    "websiteURL": "https://github.com/kenshincui/VectorPlugins",
+    "defaultPrompt": ["识别这些截图中的中文文字。", "提取扫描件中的表格并保存为 CSV。", "对比 OCR 结果并标出不确定字符。"],
+    "brandColor": "#7B61FF"
+  }
+}

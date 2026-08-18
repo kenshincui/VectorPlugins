@@ -1,0 +1,92 @@
+{
+  "name": "vector-community",
+  "interface": {
+    "displayName": "Vector Community"
+  },
+  "plugins": [
+    {
+      "name": "feishu-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/feishu-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "office-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/office-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "ppt-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ppt-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "chinese-ocr",
+      "source": {
+        "source": "local",
+        "path": "./plugins/chinese-ocr"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "meeting-minutes",
+      "source": {
+        "source": "local",
+        "path": "./plugins/meeting-minutes"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "mindmap-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mindmap-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "pdf-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/pdf-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

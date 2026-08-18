@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF 工具 Skills"
+  short_description: "读取、OCR、合并、拆分、转换并验证 PDF 文件"
+  default_prompt: "处理这个 PDF，并验证页数、文本和最终文件。"
