@@ -1,0 +1,21 @@
+{
+  "name": "deep-research",
+  "version": "6.1.0-vector.1",
+  "description": "执行带来源治理、证据映射、反向审查和引用校验的深度调研。",
+  "author": { "name": "daymade / Vector Community", "url": "https://github.com/daymade/claude-code-skills" },
+  "homepage": "https://github.com/daymade/claude-code-skills/tree/main/deep-research",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "MIT",
+  "keywords": ["research", "citations", "market-analysis", "literature-review", "due-diligence"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Deep Research",
+    "shortDescription": "完成可追溯、有引用、带反向审查的系统性深度调研",
+    "longDescription": "把复杂课题拆分为调查任务，管理来源类型与时效，建立证据和引用台账，并通过反向审查与逐项验证形成可靠报告。",
+    "developerName": "daymade / Vector Community",
+    "category": "Research",
+    "capabilities": ["Deep research", "Citation governance", "Market analysis", "Counter review"],
+    "defaultPrompt": ["使用 Deep Research 深入调研这个主题并给出可追溯报告。", "对这些产品做系统竞品研究，标注来源、时效和可信度。", "完成一份带反向审查的技术选型分析。"],
+    "brandColor": "#7C3AED"
+  }
+}

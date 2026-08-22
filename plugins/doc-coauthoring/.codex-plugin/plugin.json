@@ -1,0 +1,21 @@
+{
+  "name": "doc-coauthoring",
+  "version": "1.0.0",
+  "description": "共同撰写 PRD、RFC、技术方案、提案和决策文档。",
+  "author": { "name": "Vector Community", "url": "https://github.com/kenshincui/VectorPlugins" },
+  "homepage": "https://github.com/kenshincui/VectorPlugins/tree/main/plugins/doc-coauthoring",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "MIT",
+  "keywords": ["prd", "rfc", "technical-design", "proposal", "documentation"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Doc Co-authoring",
+    "shortDescription": "共同撰写 PRD、RFC、技术方案、提案与决策文档",
+    "longDescription": "通过上下文台账、结构设计、分段共创和无上下文读者测试，将零散信息整理成可评审、可决策、可执行的专业文档。",
+    "developerName": "Vector Community",
+    "category": "Productivity",
+    "capabilities": ["PRD", "RFC", "Technical design", "Decision documents"],
+    "defaultPrompt": ["使用 Doc Co-authoring 与我共同撰写这份 PRD。", "把这些材料整理成可评审的 RFC 或技术方案。", "检查这份方案是否能让不了解背景的读者做出决策。"],
+    "brandColor": "#2563EB"
+  }
+}

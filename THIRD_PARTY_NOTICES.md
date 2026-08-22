@@ -31,3 +31,44 @@ effect library and reduces the optional icon catalog to the complete
 `chunk-filled`, `tabler-filled`, and `phosphor-duotone` collections plus a
 commonly used subset of `simple-icons` brand marks. Projects may provide
 additional SVG icons and audio files locally as documented by PPT Master.
+
+## Internal Comms
+
+- Upstream: https://github.com/anthropics/skills
+- Imported revision: `3b3fad96af16a10759d930941b4520ba0c40edae`
+- Imported path: `skills/internal-comms`
+- License: Apache License 2.0
+- Local package: `plugins/internal-comms/skills/internal-comms`
+
+Vector adapts triggering and UI metadata while retaining the upstream workflow
+and examples.
+
+## Diagram Maker
+
+- Upstream: https://github.com/openclaw/openclaw
+- Imported revision: `ea1cd39d6c9ac880eaa531e57c98219d8c559e57`
+- Imported path: `skills/diagram-maker`
+- License: MIT
+- Local package: `plugins/diagram-maker/skills/diagram-maker`
+
+Vector normalizes host-specific frontmatter and adds plugin metadata.
+
+## Deep Research
+
+- Upstream: https://github.com/daymade/claude-code-skills
+- Imported revision: `52afafe78646b82ef228819d3e5acc8684943502`
+- Imported path: `deep-research`
+- Upstream release line: V6.1
+- License: MIT
+- Local package: `plugins/deep-research/skills/deep-research`
+
+Vector replaces product-specific tool and team commands with capability-based
+browser, retrieval, file, and optional parallel-worker instructions.
+
+## Anthropic document Skills not redistributed
+
+Anthropic's `skills/docx`, `skills/xlsx`, and `skills/pdf` were inspected at
+revision `3b3fad96af16a10759d930941b4520ba0c40edae`. Their `LICENSE.txt` files
+state that users may not retain copies outside Anthropic Services, reproduce or
+copy the materials, create derivative works, or distribute them to third
+parties. They are therefore deliberately excluded from this public repository.

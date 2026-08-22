@@ -1,0 +1,21 @@
+{
+  "name": "internal-comms",
+  "version": "1.0.0-vector.1",
+  "description": "撰写周报、向上汇报、项目进展、3P、FAQ 和内部公告。",
+  "author": { "name": "Anthropic / Vector Community", "url": "https://github.com/anthropics/skills" },
+  "homepage": "https://github.com/anthropics/skills/tree/main/skills/internal-comms",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "Apache-2.0",
+  "keywords": ["weekly-report", "leadership-update", "internal-comms", "status", "3p"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Internal Comms",
+    "shortDescription": "撰写周报、向上汇报、项目进展、3P 与内部公告",
+    "longDescription": "根据沟通对象和场景选择合适结构，产出重点明确、行动导向、适合团队或管理层阅读的内部沟通材料。",
+    "developerName": "Anthropic / Vector Community",
+    "category": "Productivity",
+    "capabilities": ["Weekly reports", "Leadership updates", "3P updates", "Internal announcements"],
+    "defaultPrompt": ["使用 Internal Comms 把这些信息整理成周报。", "将这份项目进展改写成适合向上汇报的版本。", "根据这些材料撰写一份 3P 更新。"],
+    "brandColor": "#F59E0B"
+  }
+}

@@ -111,6 +111,54 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "doc-coauthoring",
+      "source": {
+        "source": "local",
+        "path": "./plugins/doc-coauthoring"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "internal-comms",
+      "source": {
+        "source": "local",
+        "path": "./plugins/internal-comms"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "diagram-maker",
+      "source": {
+        "source": "local",
+        "path": "./plugins/diagram-maker"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    },
+    {
+      "name": "deep-research",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deep-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
     }
   ]
 }

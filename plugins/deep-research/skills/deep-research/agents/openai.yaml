@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deep Research"
+  short_description: "完成可追溯、有引用、含来源治理和反向审查的系统深度调研"
+  default_prompt: "使用 $deep-research 深入调研这个主题并给出可追溯的研究报告。"

@@ -1,0 +1,21 @@
+{
+  "name": "diagram-maker",
+  "version": "1.0.0-vector.1",
+  "description": "创建架构图、流程图、概念图和可编辑 Excalidraw 白板。",
+  "author": { "name": "OpenClaw Foundation / Vector Community", "url": "https://github.com/openclaw/openclaw" },
+  "homepage": "https://github.com/openclaw/openclaw/tree/main/skills/diagram-maker",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "MIT",
+  "keywords": ["diagram", "architecture", "flowchart", "svg", "excalidraw"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Diagram Maker",
+    "shortDescription": "创建清晰的架构图、流程图、概念图与可编辑白板",
+    "longDescription": "根据用途在独立 SVG/HTML 和 Excalidraw 之间选择，建立合理布局、语义配色、节点层次和可验证连接关系。",
+    "developerName": "OpenClaw Foundation / Vector Community",
+    "category": "Design",
+    "capabilities": ["Architecture diagrams", "Flowcharts", "SVG", "Excalidraw"],
+    "defaultPrompt": ["使用 Diagram Maker 绘制这个系统的架构图。", "把这段流程整理成清晰的流程图。", "生成一份可编辑的 Excalidraw 白板。"],
+    "brandColor": "#0EA5E9"
+  }
+}

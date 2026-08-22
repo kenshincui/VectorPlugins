@@ -1,0 +1,4 @@
+interface:
+  display_name: "Doc Co-authoring"
+  short_description: "共同撰写 PRD、RFC、技术方案、提案与决策文档"
+  default_prompt: "使用 $doc-coauthoring 与我共同撰写这份 PRD、RFC 或技术方案。"
