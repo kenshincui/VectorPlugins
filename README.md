@@ -13,6 +13,8 @@
 | 会议纪要 Skills | 从转写稿整理决策、行动项、风险和待确认项 | 无强制外部依赖 |
 | 思维导图 Skills | 生成 Mermaid mindmap/flowchart 和可编辑源文件 | 可选 Mermaid CLI |
 | PDF 工具 Skills | 提取、OCR、合并、拆分、旋转和转换 PDF | Poppler、PyMuPDF、pypdf 等按任务选择 |
+| Impeccable | 高审美网站、产品界面设计、重构、评审和质量检查 | Node.js；浏览器能力按任务使用 |
+| PPT Master | 高质量原生可编辑 PPTX、模板、动画、旁白和视觉 QA | Python 3.10+；按需安装 `requirements.txt`；推荐 LibreOffice |
 
 ## 目录约定
 
@@ -23,6 +25,11 @@ plugins/<plugin-name>/skills/<skill-name>/SKILL.md
 ```
 
 插件必须使用 MIT 或其他明确允许再分发的许可证。不得提交凭据、Cookie、访问令牌、用户数据或来源不明的第三方代码。安装插件不等于授予外部服务权限；涉及账号或写操作时仍需由对应工具完成认证并遵循 Vector 的审批策略。
+
+第三方 Skill 的来源、固定版本和 Vector 适配说明记录在
+[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) 以及各插件的
+`UPSTREAM.md` 中。PPT Master 的 Vector 包为满足安装大小和文件数限制，
+精简了可替代的图标与音效素材库，但保留完整核心工作流、脚本、模板和参考资料。
 
 ## 本地验证
 

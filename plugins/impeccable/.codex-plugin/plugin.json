@@ -1,0 +1,22 @@
+{
+  "name": "impeccable",
+  "version": "4.1.1-vector.1",
+  "description": "以完整设计工作流设计、重构、评审和打磨高品质前端界面。",
+  "author": { "name": "Pascal Bakaus / Vector Community", "url": "https://github.com/pbakaus/impeccable" },
+  "homepage": "https://github.com/pbakaus/impeccable",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "Apache-2.0",
+  "keywords": ["frontend", "design", "ui", "ux", "website", "accessibility"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Impeccable",
+    "shortDescription": "高审美前端设计、重构、评审与真实浏览器迭代工作流",
+    "longDescription": "通过产品上下文、视觉方向、设计系统、实现、评审、无障碍与响应式检查，创建或改进网站、落地页、Dashboard 和产品界面。",
+    "developerName": "Pascal Bakaus / Vector Community",
+    "category": "Design",
+    "capabilities": ["Frontend design", "UX critique", "Accessibility", "Responsive QA"],
+    "websiteURL": "https://impeccable.style",
+    "defaultPrompt": ["使用 Impeccable 重新设计这个网站。", "评审并提升这个界面的视觉和 UX。", "检查页面的响应式、无障碍和设计反模式。"],
+    "brandColor": "#7C3AED"
+  }
+}

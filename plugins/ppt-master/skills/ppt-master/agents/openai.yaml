@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT Master"
+  short_description: "制作高质量、原生可编辑并经过视觉检查的 PPTX"
+  default_prompt: "使用 $ppt-master 把这些材料制作成高质量、原生可编辑的 PowerPoint 演示文稿。"

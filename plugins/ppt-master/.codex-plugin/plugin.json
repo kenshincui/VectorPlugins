@@ -1,0 +1,22 @@
+{
+  "name": "ppt-master",
+  "version": "4.8.0-vector.1",
+  "description": "生成、重构、填充和增强原生可编辑 PowerPoint 演示文稿。",
+  "author": { "name": "Hugo He / Vector Community", "url": "https://github.com/hugohe3/ppt-master" },
+  "homepage": "https://github.com/hugohe3/ppt-master",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "MIT",
+  "keywords": ["ppt", "pptx", "powerpoint", "presentation", "slides", "native"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PPT Master",
+    "shortDescription": "制作高艺术水准、原生可编辑并经过渲染检查的 PPTX",
+    "longDescription": "从材料生成 PPTX、复用或创建模板、填充原生对象，并支持图表、表格、备注、动画、旁白和视觉检查。Vector 版保留核心运行能力并精简可替代素材库。",
+    "developerName": "Hugo He / Vector Community",
+    "category": "Productivity",
+    "capabilities": ["Create PPTX", "Native editing", "Charts and tables", "Visual QA"],
+    "websiteURL": "https://github.com/hugohe3/ppt-master",
+    "defaultPrompt": ["使用 PPT Master 把这些材料制作成高质量可编辑 PPT。", "重新设计这份 PPT，并保留原生对象。", "检查并修复演示文稿的溢出、布局和渲染问题。"],
+    "brandColor": "#D24726"
+  }
+}
