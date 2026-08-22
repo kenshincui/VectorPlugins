@@ -1,0 +1,7 @@
+interface:
+  display_name: "Frontend Design"
+  short_description: "创建鲜明、非模板化并经过视觉验证的前端界面"
+  brand_color: "#D97757"
+  default_prompt: "Use $frontend-design to create a distinctive responsive interface for this brief."
+policy:
+  allow_implicit_invocation: true

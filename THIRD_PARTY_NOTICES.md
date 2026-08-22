@@ -72,3 +72,16 @@ revision `3b3fad96af16a10759d930941b4520ba0c40edae`. Their `LICENSE.txt` files
 state that users may not retain copies outside Anthropic Services, reproduce or
 copy the materials, create derivative works, or distribute them to third
 parties. They are therefore deliberately excluded from this public repository.
+
+## Frontend Design
+
+- Upstream: https://github.com/anthropics/skills
+- Imported revision: `3b3fad96af16a10759d930941b4520ba0c40edae`
+- Imported path: `skills/frontend-design`
+- License: Apache License 2.0
+- Local package: `plugins/frontend-design/skills/frontend-design`
+
+Vector adapts the upstream Skill for its Codex-compatible runtime and plugin
+catalog. The adaptation preserves the upstream visual-design principles while
+replacing Claude-specific host assumptions with Vector tool, implementation,
+verification, and bounded screenshot-QA instructions.

@@ -1,0 +1,22 @@
+{
+  "name": "frontend-design",
+  "version": "1.0.0-vector.1",
+  "description": "为网站、Dashboard 和产品界面建立鲜明、非模板化的视觉方向并实现可运行前端。",
+  "author": { "name": "Anthropic / Vector Community", "url": "https://github.com/anthropics/skills" },
+  "homepage": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "Apache-2.0",
+  "keywords": ["frontend", "web-design", "ui", "ux", "website", "dashboard"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Frontend Design",
+    "shortDescription": "生成具有明确视觉观点、避免模板感的高品质网页界面",
+    "longDescription": "基于真实主题先确定视觉方向、字体、配色、布局和标志性元素，再实现并通过桌面与移动端截图完成自我评审，适用于网站、落地页、Dashboard 和产品界面。",
+    "developerName": "Anthropic / Vector Community",
+    "category": "Design",
+    "capabilities": ["Frontend design", "Visual direction", "Responsive UI", "Visual QA"],
+    "websiteURL": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
+    "defaultPrompt": ["使用 Frontend Design 创建一个有鲜明视觉风格的网站。", "为这个 Dashboard 建立非模板化的设计方向并实现。", "重新设计这个前端，让它更有辨识度并完成响应式检查。"],
+    "brandColor": "#D97757"
+  }
+}

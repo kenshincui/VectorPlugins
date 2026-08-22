@@ -19,6 +19,7 @@
 | Internal Comms | 周报、向上汇报、3P、项目进展和内部公告 | 无强制外部依赖 |
 | Diagram Maker | 架构图、流程图、SVG/HTML 与 Excalidraw 白板 | 浏览器用于预览验证 |
 | Deep Research | 来源治理、证据映射、反向审查和引用校验 | 需要可用的搜索、浏览器或连接器能力 |
+| Frontend Design | 为网站、Dashboard 和产品界面建立鲜明、非模板化的视觉方向并完成实现 | 无强制外部依赖；推荐浏览器截图能力 |
 
 ## 目录约定
 
