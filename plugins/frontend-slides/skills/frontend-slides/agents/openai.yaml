@@ -1,0 +1,5 @@
+interface:
+  display_name: "Frontend Slides"
+  short_description: "创建、转换和优化可动画的单文件 HTML 演示文稿"
+  brand_color: "#F97316"
+  default_prompt: "使用 $frontend-slides 把这些材料制作成可在浏览器播放的动画 HTML 演示文稿。"

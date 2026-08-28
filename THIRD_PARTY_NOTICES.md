@@ -85,3 +85,16 @@ Vector adapts the upstream Skill for its Codex-compatible runtime and plugin
 catalog. The adaptation preserves the upstream visual-design principles while
 replacing Claude-specific host assumptions with Vector tool, implementation,
 verification, and bounded screenshot-QA instructions.
+
+## Frontend Slides
+
+- Upstream: https://github.com/zarazhangrui/frontend-slides
+- Reference revision: `9906a34d640d2111f724544cbc50f7f130569ae1`
+- Base release line: `v2.0.0`
+- License: MIT
+- Local package: `plugins/frontend-slides/skills/frontend-slides`
+
+Vector packages the user's Codex-adapted copy. The package keeps the imported
+responsive full-viewport model and does not silently adopt the current
+upstream fixed-stage or optional bold-template additions. It adds plugin,
+marketplace, UI, license, and provenance metadata.

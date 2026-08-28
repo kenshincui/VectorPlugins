@@ -1,0 +1,22 @@
+{
+  "name": "frontend-slides",
+  "version": "2.0.0-vector.1",
+  "description": "创建、转换、优化并导出零构建依赖的动画 HTML 演示文稿。",
+  "author": { "name": "Zara Zhang / Vector Community", "url": "https://github.com/zarazhangrui/frontend-slides" },
+  "homepage": "https://github.com/zarazhangrui/frontend-slides",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "MIT",
+  "keywords": ["slides", "presentation", "html", "pptx", "animation", "frontend"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Frontend Slides",
+    "shortDescription": "创建零构建依赖、可动画和可导出的浏览器演示文稿",
+    "longDescription": "从主题、材料、现有 HTML 或 PPTX 生成单文件 HTML 演示文稿，通过可视化风格选择、响应式 viewport 约束、动画模式与导出脚本完成交付。",
+    "developerName": "Zara Zhang / Vector Community",
+    "category": "Design",
+    "capabilities": ["HTML slides", "PPTX conversion", "Animation", "PDF export"],
+    "websiteURL": "https://github.com/zarazhangrui/frontend-slides",
+    "defaultPrompt": ["使用 Frontend Slides 把这些材料制作成动画 HTML 演示文稿。", "将这个 PPTX 转换成适合浏览器播放的演示文稿。", "优化这份 HTML Slides 的视觉风格并检查 viewport 溢出。"],
+    "brandColor": "#F97316"
+  }
+}
