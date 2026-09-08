@@ -109,3 +109,15 @@ marketplace, UI, license, and provenance metadata.
 The eight skills and `skills/llms.txt` are retained verbatim. Vector adds catalog,
 plugin, README and provenance metadata. The upstream license is included in the
 package. This redistributes skill documents, not the GSAP runtime.
+
+## Minimalist UI
+
+- Upstream: https://github.com/Leonxlnx/taste-skill
+- Reference revision: `ccbc15639c97057cbfcf32ecebc38ef716e4bb37`
+- Imported file: `skills/minimalist-skill/SKILL.md`
+- Local package: `plugins/minimalist-ui`
+- License: MIT; Copyright (c) 2026 Leonxlnx
+
+The skill is retained verbatim, with the containing folder renamed to match its
+`minimalist-ui` frontmatter name. Vector adds packaging and provenance metadata;
+the original license and copyright notice are included in the plugin.

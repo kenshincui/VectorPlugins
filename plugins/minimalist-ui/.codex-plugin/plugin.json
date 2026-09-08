@@ -1,0 +1,39 @@
+{
+  "name": "minimalist-ui",
+  "version": "1.0.0",
+  "description": "Taste Skill 极简界面设计：暖白配色、精细排版、充足留白和克制动效。",
+  "author": {
+    "name": "Leonxlnx / Vector Community",
+    "url": "https://github.com/Leonxlnx/taste-skill"
+  },
+  "homepage": "https://github.com/Leonxlnx/taste-skill",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "minimalist",
+    "typography",
+    "frontend",
+    "ui"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Minimalist UI",
+    "shortDescription": "暖白、留白与精细排版，打造简约克制的界面",
+    "longDescription": "收录 Taste Skill 的 minimalist-ui 技能，涵盖暖色单色配色、排版层级、扁平网格、组件细节与微动效。保留上游技能正文；这是编辑式极简设计方向，并非 Apple 官方设计规范。",
+    "developerName": "Leonxlnx / Vector Community",
+    "category": "Design",
+    "capabilities": [
+      "Minimalist UI",
+      "Typography",
+      "Layout",
+      "Micro-interactions"
+    ],
+    "websiteURL": "https://github.com/Leonxlnx/taste-skill",
+    "defaultPrompt": [
+      "用 Minimalist UI 为这个页面设计简约、克制且有设计感的界面。",
+      "在保留项目现有设计规范的前提下，优化这个界面的留白、排版和视觉层级。"
+    ],
+    "brandColor": "#2F3437"
+  }
+}
