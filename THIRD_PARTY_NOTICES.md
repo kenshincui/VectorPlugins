@@ -106,7 +106,7 @@ marketplace, UI, license, and provenance metadata.
 - License: MIT; Copyright (c) 2026 GreenSock
 - Local package: `plugins/gsap-skills`
 
-The eight skills and `skills/llms.txt` are retained verbatim. Vector adds catalog,
+The eight skills and `skills/llms.txt` are retained with trailing whitespace normalized. Vector adds catalog,
 plugin, README and provenance metadata. The upstream license is included in the
 package. This redistributes skill documents, not the GSAP runtime.
 
@@ -118,6 +118,6 @@ package. This redistributes skill documents, not the GSAP runtime.
 - Local package: `plugins/minimalist-ui`
 - License: MIT; Copyright (c) 2026 Leonxlnx
 
-The skill is retained verbatim, with the containing folder renamed to match its
+The skill is retained with trailing whitespace normalized, with the containing folder renamed to match its
 `minimalist-ui` frontmatter name. Vector adds packaging and provenance metadata;
 the original license and copyright notice are included in the plugin.

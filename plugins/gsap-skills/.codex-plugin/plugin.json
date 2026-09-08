@@ -1,6 +1,6 @@
 {
   "name": "gsap-skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GSAP 官方动画技能集合，涵盖核心 API、时间线、滚动动画、插件、框架集成与性能优化。",
   "author": {
     "name": "GreenSock / Vector Community",
