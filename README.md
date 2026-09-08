@@ -21,6 +21,7 @@
 | Deep Research | 来源治理、证据映射、反向审查和引用校验 | 需要可用的搜索、浏览器或连接器能力 |
 | Frontend Design | 为网站、Dashboard 和产品界面建立鲜明、非模板化的视觉方向并完成实现 | 无强制外部依赖；推荐浏览器截图能力 |
 | Frontend Slides | 创建、转换、优化和导出单文件动画 HTML 演示文稿 | Python 3 用于 PPTX 提取；PDF 导出与部署按需使用对应脚本依赖 |
+| GSAP Skills | 官方 8 项动画技能：核心 API、时间线、ScrollTrigger、框架集成与性能 | 目标项目按需安装 `gsap`；React 可使用 `@gsap/react` |
 
 ## 目录约定
 

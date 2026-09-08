@@ -1,0 +1,44 @@
+{
+  "name": "gsap-skills",
+  "version": "1.0.0",
+  "description": "GSAP 官方动画技能集合，涵盖核心 API、时间线、滚动动画、插件、框架集成与性能优化。",
+  "author": {
+    "name": "GreenSock / Vector Community",
+    "url": "https://github.com/greensock/gsap-skills"
+  },
+  "homepage": "https://github.com/greensock/gsap-skills",
+  "repository": "https://github.com/kenshincui/VectorPlugins",
+  "license": "MIT",
+  "keywords": [
+    "gsap",
+    "animation",
+    "scrolltrigger",
+    "timeline",
+    "react",
+    "vue",
+    "svelte"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "GSAP Skills",
+    "shortDescription": "GSAP 官方 8 项动画技能，支持 React、Vue、Svelte 与原生 JavaScript",
+    "longDescription": "收录 GreenSock 官方核心动画、时间线、ScrollTrigger、插件、工具函数、React、其他框架与性能优化技能。保留官方技能正文和 MIT 许可证，通过 Vector 社区插件目录统一安装。",
+    "developerName": "GreenSock / Vector Community",
+    "category": "Design",
+    "capabilities": [
+      "Animation",
+      "ScrollTrigger",
+      "Timeline",
+      "React",
+      "Vue / Svelte",
+      "Performance"
+    ],
+    "websiteURL": "https://github.com/greensock/gsap-skills",
+    "defaultPrompt": [
+      "使用 GSAP 为这个页面添加动画，并支持减少动态效果偏好。",
+      "使用 GSAP ScrollTrigger 实现滚动动画。",
+      "检查并优化当前 React 项目的 GSAP 动画和清理逻辑。"
+    ],
+    "brandColor": "#88CE02"
+  }
+}

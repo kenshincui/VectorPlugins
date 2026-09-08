@@ -98,3 +98,14 @@ Vector packages the user's Codex-adapted copy. The package keeps the imported
 responsive full-viewport model and does not silently adopt the current
 upstream fixed-stage or optional bold-template additions. It adds plugin,
 marketplace, UI, license, and provenance metadata.
+
+## GSAP Skills
+
+- Upstream: https://github.com/greensock/gsap-skills
+- Reference revision: `aed9cfd3277740755f6bfc1155c7aa645403b760`
+- License: MIT; Copyright (c) 2026 GreenSock
+- Local package: `plugins/gsap-skills`
+
+The eight skills and `skills/llms.txt` are retained verbatim. Vector adds catalog,
+plugin, README and provenance metadata. The upstream license is included in the
+package. This redistributes skill documents, not the GSAP runtime.
